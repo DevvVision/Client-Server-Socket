@@ -3,8 +3,8 @@ import os
 import subprocess
 import pyautogui
 s=socket.socket()
-host="192.168.1.34"
-port=9999
+host="XXXXXXXX" #server address 
+port=xxxxxx #port number
 s.connect((host,port))
 # ip address does not change when system is kept on sleep win+l
 
